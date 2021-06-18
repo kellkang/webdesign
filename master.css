@@ -1,0 +1,116 @@
+*{margin: 0;padding: 0;text-decoration: none;list-style: none;}
+
+body{background-color: #F2EDE4;}
+
+
+header{width: 100%;
+      height: 100px;
+      background-color: #F2EDE4;
+      display: flex;
+      justify-content: center;
+      align-items: center;}
+
+
+nav{
+    width: 1024px;
+    height: 100px;
+    border: 0px solid: pink;
+}
+nav > ul{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+        border: 0px solid red;
+        height: 100px;
+}
+nav > ul > li{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border: 0px solid:blue;
+}
+nav > ul > li > a{
+              font-family: 'Noto Sans KR',sans-serif;
+              font-size: 18px;
+              color: #777777;
+              font-weight: 500;
+              letter-spacing: -1.5px;
+}
+nav > ul > li > a:hover{ color: #ECD47E;}
+
+
+.bg{width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;}
+
+.bg1{background-image: url('img/LBB_bg.png'); background-color: #F2EDE4;}
+.bg2{background-image: url('img/history_bg.png'); background-color: #F2EDE4;}
+.bg3{background-image: url('img/design_bg.png');}
+.bg4{background-image: url('img/principles_bg.png'); background-color: #F5E5AD;}
+.bg5{background-image: url('img/interview_bg.png');}
+
+.bg_ext{display: flex;justify-content: center;align-items: center;}
+
+.tit1{position: relative;
+      display: inline-block;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-90%) translateY(-50%);}
+
+#footer {margin: 0 auto;width: 1280px; height: 60px; border-top: 0.25px solid#777777;
+        overflow: hidden; background-color: #F2EDE4; font-family: 'Noto Sans KR',sans-serif;}
+
+.copyright {text-align: center; margin-top: 15px;color: #777777; line-height: 20px;}
+
+.bt{transform: scale(1.0);transition: 0.5s;}
+.bt:hover{transform: scale(1.1);transition: 0.5s;}
+
+
+/*----sub01----*/
+.sub01_top{width: 100%;height: 950px;background-position: center;background-size: cover;
+          display: flex;justify-content: center;align-items: center;}
+.sub01_cont{width: 100%;height: 700px;background-color: #F8F6F2;display: flex;justify-content: center;}
+.sub01_cont_wrap{width: 1280px;height: 700px;border: 0px solid red;}
+.sub01_cont_wrap img{padding-left: 70px;padding-right:90px;padding-top: 115px;}
+
+.sub01_cont02{width: 100%;height: 500px;background-color: #F8F6F2;display: flex;justify-content: center;}
+.sub01_cont_wrap02{width:1280px;height: 500px;border: 0px solid red;}
+.sub01_cont_wrap02 img{padding-left: 70px;padding-top: 115px;}
+
+.title {margin: 0px; width: 100%; height: 800px;background-color: #F2EDE4;
+        text-align:center; margin-top:100px; font-size: 20px;}
+.title h1 {margin-top: 10px; font-family:'Noto Sans KR',sans-serif;}
+.title iframe {margin-top:50px;}
+
+
+
+/*----sub02----*/
+.sub02_top{width: 100%;height: 950px;background-position: center;background-size: cover;
+          display: flex;justify-content: center;align-items: center;}
+
+.sub02_cont{width: 100%;height: 5000px;display: flex;justify-content: center;}
+.sub02_cont_wrap{margin: 0px; width: 100%;height: 5000px;border: 0px solid red;background-image: url('img/sub02bg.png');background-size: cover;
+background-position: center; }
+.sub02_wrap{margin: 0px; width: 100%; height: 5000px; margin-top: 100px;text-align:center;}
+
+
+
+
+
+/*----sub03----*/
+.sub03_top{width: 100%;height: 950px;background-position: center;background-size: cover;
+          display: flex;justify-content: center;align-items: center;}
+.sub03_cont{width: 100%;height: 5500px;display: flex;justify-content: center;}
+.sub03_cont_wrap{width: 100%;height: 5500px;border: 0px solid red;background-image: url('img/sub03bg.png');background-size: cover;
+          background-position: center;}
+.txt {margin: 0px; width: 100%; height: 4000px; margin-top: 100px;text-align:center;}
+
+
+
+/*----sub04----*/
+.sub04_top{width: 100%;height: 950px;background-position: center;background-size: cover;
+          display: flex;justify-content: center;align-items: center;}
+.sub04_cont{width: 100%;height: 4000px;display: flex;justify-content: center;}
+.sub04_cont_wrap{width: 100%;height: 4000px;border: 0px solid red;background-image: url('img/sub04bg.png');background-size: cover;
+          background-position: center;}
